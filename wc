@@ -1,3 +1,0 @@
-counts and prints the bytes, space seperated words and new lines of a file:
-
-wc filename
