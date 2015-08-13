@@ -1,18 +1,28 @@
-            Essential Commands
+                Essential Commands
 
 
 
-     Command        |       Description
+          Command        |       Description
 _________________________________________________
                     
 Directories:        
-                    |
-$ pwd               | Display path of current working directory
-$ mkdir <directory> | Change directory to <directory>
-$ cd <directory>    | Create new directory <directory>
-$ cd ..             | Change to parent directory
-$ ls                | list contents
-$ ls -la            | list detailed and hidden contents
-                    |
+                         |
+$ pwd                    | Display path of current working directory
+$ mkdir <directory>      | Change directory to <directory>
+$ rmdir <directory>      | Deletes Directory
+$ cd <directory>         | Create new directory <directory>
+$ cd ..                  | Change to parent directory
+$ ls                     | List contents
+$ ls -la                 | List detailed and hidden contents
+                         |
+Files:
 
+$ touch <file>           | Create <file> 
+$ rm <file>              | Delete <file>
+$ rm -r <file>           | Delete <directory>
+$ rm -f <file>           | Force-delete <file>
+$ mv <oldfile> <newfile> | rename <oldfile> to <newfile>
+$ cp <file> <directory>  | Move <file> to <directory>
+$ cp -r <directory1> <dir| Copy <directory1> contents to <directory2>
+ectory2>                 |
 
