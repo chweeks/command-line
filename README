@@ -25,4 +25,12 @@ $ mv <oldfile> <newfile> | rename <oldfile> to <newfile>
 $ cp <file> <directory>  | Move <file> to <directory>
 $ cp -r <directory1> <dir| Copy <directory1> contents to <directory2>
 ectory2>                 |
+                         |
+Output:
 
+$ cat <file>             | Output the contents of <file>
+$ less <file>            | Output the contents of <file> 
+$ head <file>            | Output first ten lines of <file>
+$ <cmd> <file>           | Direct output of <cmd> to <file>
+$ <cmd> >> <file>        | Append output of <cmd> to <file>
+$ clear                  | Clear the command line window
