@@ -7,7 +7,7 @@ _________________________________________________
 Directories:        
                     |
 $ pwd               | Display path of current working directory
-$mkdir <directory>  | Change directory to <directory>
+$ mkdir <directory> | Change directory to <directory>
 $ cd <directory>    | Create new directory <directory>
 $ cd ..             | Change to parent directory
 $ ls                | list contents
