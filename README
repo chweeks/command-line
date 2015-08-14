@@ -46,3 +46,14 @@ Permissions:
 $ chmod UGO + RWX <file>   | Add read, write and execute permissions to user, group and others for <file>
 $ chmod -R ... <dir>       | Change permissions of <dir> and contents
 $ chown <user> <file>      | Change ownership of <file> to <user>
+                           |
+
+More:
+
+$ ps ax                    | Output currently running processes
+$ whoami                   | Outputs username of current user
+$ wc                       | Word count, -l(lines), -w(words), -c(byte size)
+$ man <cmd>                | shows manual for <cmd>
+$ date                     | View & modify time
+$ env                      | Output list of environment variables
+
