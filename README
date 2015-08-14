@@ -1,36 +1,41 @@
-                Essential Commands
+                  Essential Commands
 
 
 
-          Command        |       Description
+            Command        |       Description
 _________________________________________________
                     
 Directories:        
-                         |
-$ pwd                    | Display path of current working directory
-$ mkdir <directory>      | Change directory to <directory>
-$ rmdir <directory>      | Deletes Directory
-$ cd <directory>         | Create new directory <directory>
-$ cd ..                  | Change to parent directory
-$ ls                     | List contents
-$ ls -la                 | List detailed and hidden contents
-                         |
+                           |
+$ pwd                      | Display path of current working directory
+$ mkdir <directory>        | Change directory to <directory>
+$ rmdir <directory>        | Deletes Directory
+$ cd <directory>           | Create new directory <directory>
+$ cd ..                    | Change to parent directory
+$ ls                       | List contents
+$ ls -la                   | List detailed and hidden contents
+                           |
 Files:
 
-$ touch <file>           | Create <file> 
-$ rm <file>              | Delete <file>
-$ rm -r <file>           | Delete <directory>
-$ rm -f <file>           | Force-delete <file>
-$ mv <oldfile> <newfile> | rename <oldfile> to <newfile>
-$ cp <file> <directory>  | Move <file> to <directory>
-$ cp -r <directory1> <dir| Copy <directory1> contents to <directory2>
-ectory2>                 |
-                         |
+$ touch <file>             | Create <file> 
+$ rm <file>                | Delete <file>
+$ rm -r <file>             | Delete <directory>
+$ rm -f <file>             | Force-delete <file>
+$ mv <oldfile> <newfile>   | rename <oldfile> to <newfile>
+$ cp <file> <directory>    | Move <file> to <directory>
+$ cp -r <directory1> <dir2>| Copy <directory1> contents to <dir2>
+                           |
 Output:
 
-$ cat <file>             | Output the contents of <file>
-$ less <file>            | Output the contents of <file> 
-$ head <file>            | Output first ten lines of <file>
-$ <cmd> <file>           | Direct output of <cmd> to <file>
-$ <cmd> >> <file>        | Append output of <cmd> to <file>
-$ clear                  | Clear the command line window
+$ cat <file>               | Output the contents of <file>
+$ less <file>              | Output the contents of <file> 
+$ head <file>              | Output first ten lines of <file>
+$ <cmd> <file>             | Direct output of <cmd> to <file>
+$ <cmd> >> <file>          | Append output of <cmd> to <file>
+$ clear                    | Clear the command line window
+                           |
+Search:
+
+$ find <dir> -name "<file>"| Find files named <file> in <dir>
+$ grep "<text>" <file>     | Output instances of <text> in file
+$ grep -rl "<text>" <dir>  | Search for all files containing <text> in <dir>
