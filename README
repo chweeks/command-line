@@ -39,3 +39,10 @@ Search:
 $ find <dir> -name "<file>"| Find files named <file> in <dir>
 $ grep "<text>" <file>     | Output instances of <text> in file
 $ grep -rl "<text>" <dir>  | Search for all files containing <text> in <dir>
+                           |
+
+Permissions:
+
+$ chmod UGO + RWX <file>   | Add read, write and execute permissions to user, group and others for <file>
+$ chmod -R ... <dir>       | Change permissions of <dir> and contents
+$ chown <user> <file>      | Change ownership of <file> to <user>
